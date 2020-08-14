@@ -1,0 +1,32 @@
+p{
+    text-align-last:  ;
+    color:purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1{
+    color:purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2{
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a{
+    color:black;
+}
+p.endereco{
+    font-style: bold;
+    color: black;
+    font-family: monospace;
+}
+ul{
+    color: purple;
+    font-family: 'trebuchet ms';
+}
+div.endereco {
+    width: relative;
+    padding: 2px;
+    border: 2px solid navy;
+    margin: 2px;
+    background-image: "imagens/avatarflic.jpg"
+}
