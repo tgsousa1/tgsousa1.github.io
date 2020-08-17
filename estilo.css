@@ -1,32 +1,52 @@
-p{
-    text-align-last:  ;
-    color:purple;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+body, html {
+  height: 100%
 }
-h1{
-    color:purple;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+.bgimg {
+  /* Background image */
+  background: rgb(224,224,224);
+  background: radial-gradient(circle, rgba(224,224,224,1) 0%, rgba(242,242,242,1) 35%, rgba(255,255,255,1) 100%);
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
 }
-h2{
-    color: purple;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
 }
-a{
-    color:black;
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
 }
-p.endereco{
-    font-style: bold;
-    color: black;
-    font-family: monospace;
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
-ul{
-    color: purple;
-    font-family: 'trebuchet ms';
-}
-div.endereco {
-    width: relative;
-    padding: 2px;
-    border: 2px solid navy;
-    margin: 2px;
-    background-image: "imagens/avatarflic.jpg"
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
 }
